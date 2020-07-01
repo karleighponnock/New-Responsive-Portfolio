@@ -36,6 +36,7 @@ body {
     background-color: hsl(0, 0%, 31%, .6);
     color: white;
     margin-bottom: 10%;
+   
  }
   #firstpic {
     max-width: 50%;
@@ -46,6 +47,11 @@ body {
        float: left;
   }
   
+  /* all pages title tags */
+  h1{
+    text-align: center;
+    padding-top: 10px;
+  }
 
 
   /* portfolio */
@@ -55,11 +61,11 @@ body {
     box-sizing: border-box;
     padding: 20px;
   }
+
+  #portfolioT{
+    margin-top: -20px;  }
   
-  .row {
-    margin: 8px -16px;
-  }
-  
+
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
@@ -101,6 +107,39 @@ body {
   }
 
 
+
+  /* contact  */
+
+ 
+.submit {
+    margin-bottom: 15px;
+    background-color: black;
+ }
+ 
+ hr {
+     border-style: solid;
+     border-width: 3px;
+ }
+ 
+ contact {
+     margin-top: opx;
+     text-align: left;
+ }
+ 
+ .name {
+     margin-right: 30px;
+  padding-left: 15px;
+    
+ }
+ 
+ message {
+     clear: both;
+ }
+ 
+ 
+
+ 
+   
    /* footer attributes */
  footer {
     /* position: absolute; */
