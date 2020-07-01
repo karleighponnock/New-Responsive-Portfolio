@@ -8,6 +8,7 @@ body {
 
   .navbar{
       height: 10%;
+      width: 100%;
      background-color:black;
      color: white;
      border-bottom: white;
@@ -34,6 +35,7 @@ body {
     margin-top: 4%;
     background-color: hsl(0, 0%, 31%, .6);
     color: white;
+    margin-bottom: 10%;
  }
   #firstpic {
     max-width: 50%;
@@ -46,7 +48,57 @@ body {
   
 
 
+  /* portfolio */
 
+
+  #portfolio {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 
    /* footer attributes */
