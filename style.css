@@ -56,6 +56,14 @@ body {
 
   /* portfolio */
 
+  a{
+      color: black;
+     
+  }
+  a:hover{
+     background-color:  hsl(0, 0%, 31%, .6);
+     color: white;
+  }
 
   #portfolio {
     box-sizing: border-box;
@@ -124,6 +132,11 @@ body {
  contact {
      margin-top: opx;
      text-align: left;
+ }
+
+ h2{
+     font-size: 20px;
+     text-align: center;
  }
  
  .name {
