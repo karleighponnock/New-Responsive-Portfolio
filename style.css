@@ -111,10 +111,23 @@ color: white;
   }
   
   /* Content */
-  .content {
+  .cont {
     background-color: rgba(255, 255, 255, 0.897);
     color: black;
     padding: 10px;
+  }
+
+  .proj{
+      border: white;
+      border-width: 30px;
+      border-style: solid;
+  }
+
+  .overlay{
+      z-index: 1;
+      position: relative;
+      background-color: rgb(19, 21, 21, .5);
+      top: -90px;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
